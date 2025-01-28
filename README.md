@@ -38,7 +38,8 @@ cd Github-follower-check
 python3 -m pip install -r requirements.txt
 ```
 Otherwise, just install PyGithub directly:
-```python3 -m pip install PyGithub
+```bash
+python3 -m pip install PyGithub
 ```
 ### 4. Run the Script
 - Run the script using Python 3:
@@ -46,7 +47,7 @@ Otherwise, just install PyGithub directly:
 python3 main.py
 ```
 - When prompted, paste your Personal Access Token. You’ll see something like:
-
+```
 === GitHub Follower/Following Checker (PyGithub) ===
 
 Enter your GitHub Personal Access Token: 
@@ -65,6 +66,7 @@ People You Follow But They Do NOT Follow You Back:
 
 Mutual Followers (You Follow Each Other):
   - ...
+```
     
 ### 5. Interpret the Results
 - People Who Follow You But You Do NOT Follow Back: Users who appear in your followers list but not in your following list.
