@@ -46,7 +46,8 @@ python3 -m pip install PyGithub
 ```bash
 python3 main.py
 ```
-- When prompted, paste your Personal Access Token. You’ll see something like:
+- When prompted, paste your Personal Access Token.
+- You’ll see something like:
 ```
 === GitHub Follower/Following Checker (PyGithub) ===
 
